@@ -10,3 +10,6 @@ An important  question that arises when we are learning python is how to find
 my python modules. Look this error message: **ImportError: No module named XXX**.
 Has it ever happened to you? :D Here we will try to understand a little bit more
 about this problem.
+
+To start I will create a `pub` directory and add to it a module named `drink.py`.
+As I'm living in England, to drink a pint is part of my culture now. \o/
