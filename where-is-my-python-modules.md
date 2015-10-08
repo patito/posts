@@ -13,3 +13,9 @@ about this problem.
 
 To start I will create a `pub` directory and add to it a module named `drink.py`.
 As I'm living in England, to drink a pint is part of my culture now. \o/
+
+```shell
+$ mkdir pub
+$ touch pub/drink.py
+$ echo "print('give me a pint')" > pub/drink.py
+```
