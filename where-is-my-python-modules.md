@@ -32,3 +32,40 @@ Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 ImportError: No module named drink
 ```
+
+**ImportError: No module named drink**. The message is clear and tell us that
+python doesn't know where our module is. Maybe you are thinking, go to `pub`
+directory and run the interpreter from there.
+
+```shell
+$ cd pub/
+$ python
+>>> import drink
+give me a pint
+```
+
+It works! Why? And if I have modules and submodules, how to import all
+at the same time? In this case we can use `sys.path` that is a list of
+strings that specifies the search path for modules.
+
+Ok, lets go back to the previous directory and add `pub` in the `sys.path`.
+
+```shell
+$ cd ..
+$ python
+>>> import sys
+>>> sys.path
+['', '/Library/Python/2.7/site-packages/npm-0.1.1-py2.7.egg',
+'/Library/Python/2.7/site-packages/optional_django-0.1.0-py2.7.egg', '/tmp',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload',
+'/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC',
+'/Library/Python/2.7/site-packages']
+```
