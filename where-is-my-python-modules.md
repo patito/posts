@@ -69,3 +69,17 @@ $ python
 '/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC',
 '/Library/Python/2.7/site-packages']
 ```
+
+Have a look in the first value of the list ''. It means that the module will be
+firstly searched in the current directory, as a result when we ran the interpreter
+inside the pub directory the module was found.
+
+```shell
+>>> import sys
+>>> sys.path.append('pub')
+>>> import drink
+give me a pint
+```
+
+Another way to add a directory in `sys.path` is through the `PYTHONPATH`
+environment variable.  Come on! Test it!
