@@ -83,3 +83,15 @@ give me a pint
 
 Another way to add a directory in `sys.path` is through the `PYTHONPATH`
 environment variable.  Come on! Test it!
+
+```shell
+$ export PYTHONPATH=pub
+$ python
+>>> import drink
+give me a pint
+```
+
+This was a basic hint, we can find much more information at [docs.python.org](docs.python.org).
+I hope I've helped and if you have comments leave me a comment. 
+
+Happy Coding!
