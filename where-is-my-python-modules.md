@@ -19,3 +19,16 @@ $ mkdir pub
 $ touch pub/drink.py
 $ echo "print('give me a pint')" > pub/drink.py
 ```
+
+Lets try to import the module `drink.py`.
+
+```shell
+$ python
+Python 2.7.10 (default, Jul 14 2015, 19:46:27) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import drink
+Traceback (most recent call last):
+File "<stdin>", line 1, in <module>
+ImportError: No module named drink
+```
