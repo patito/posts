@@ -95,3 +95,9 @@ This was a basic hint, we can find much more information at [docs.python.org](do
 I hope I've helped and if you have comments leave me a comment. 
 
 Happy Coding!
+
+## Reference
+
+ * Friends
+ * Google
+ * Python docs
