@@ -4,7 +4,7 @@ When we are developing software, it doesn't matter which language, it is a best 
 to split the code in small pieces, it helps the legibility and
 code organization. When working with C, for example, we create header (\*.h)
 files and implementation files (\*.c). When working with python there are module files which
-the extension `.py`. To load a module we use the `import` keyword.
+have extension `.py`. To load a module we use the `import` keyword.
 
 A question often asked is how to find the location of my python modules.
 For example this error message: **ImportError: No module named XXX**. Has it
