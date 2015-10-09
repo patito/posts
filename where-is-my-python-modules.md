@@ -1,4 +1,4 @@
-## Where is my python modules?
+## Where are my python modules?
 
 When we are developing software, it doesn't matter which language, it is a best practice
 to split the code in small pieces, it helps the legibility and
