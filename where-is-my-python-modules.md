@@ -44,7 +44,7 @@ $ python
 give me a pint
 ```
 
-It works! Why? And if I have modules and submodules, how to import all
+It works! Why? And if I have modules in different directories, how to import all
 at the same time? In this case we can use `sys.path` that is a list of
 strings that specifies the search path for modules.
 
