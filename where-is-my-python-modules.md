@@ -99,5 +99,6 @@ Happy Coding!
 ## Reference
 
  * Friends
+ * Christian and Grazziella reviewing my bag English.
  * Google
  * Python docs
