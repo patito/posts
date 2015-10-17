@@ -1,4 +1,4 @@
-My nerd business card
+## My nerd business card
 
 Eu sempre gostei de participar de eventos nerds, sobre linux e desenvolvimento.
 Quando estava morando no Brasil eu participava com mais frequencia desses eventos e 
@@ -22,13 +22,11 @@ segmentation fault
 Parte de tras:
 
 ```c
-int main()
-{
+int main() {
     char *name = "Paulo Leonardo Benatto";
     char *email = "benatto@gmail.com";
     char *phone = "XXXXXXXX";
     char *github = "github.com/patito";
-
     return 0;
 }
 ```
