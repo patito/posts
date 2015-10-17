@@ -33,6 +33,10 @@ int main() {
 
 Agora eu fiz outro cartao de visitas, dessa vez em `python`.
 
+![](https://github.com/patito/posts/blob/master/imgs/card_front.png)
+
+![](https://github.com/patito/posts/blob/master/imgs/card_back.png)
+
 
 Se voce trabalha na area da computacao e gostaria de um cartao de visitas que te faz
 parecer estranho voce pode usar a mesma ideia. :D
