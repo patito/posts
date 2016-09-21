@@ -4,7 +4,7 @@ Hi handsome, my name is Paulo Leonardo Benatto (a.k.a hobbit, dwarf or whatever 
 =) and I would like to share my little experience working with git in different teams.
 If you are reading this document maybe you want to share your experience as well.
 
-As I said before this document is my experience working with git when I used to live and
+As I said before, this document is my experience working with git when I used to live and
 work in the Shire and Bree (north west of Middle-earth). You shouldn't take this post as
 a git reference, there are a lot of papers on the Internet explaining different git
 workflows and you should read them all.
